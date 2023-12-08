@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal links in html</title>
+    <link rel="icon" href="../Media/img.jpg">
+    <style>
+        *{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <a href="#java">scroll to JAVA</a><br>
+    <a href="#html">scroll to HTML</a><br>
+    <a href="#css">scroll to CSS</a><br>
+    <a href="#js">scroll to JS</a><br>
+    <a href="#sql">scroll to SQL</a><br>
+    
+    <div id="java">
+        <h1>JAVA</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsum perspiciatis eum, facere reiciendis animi inventore sequi minus itaque sit adipisci quaerat sint veniam sed odit consequuntur! Maiores, dignissimos est.</p>
+    </div>
+
+    <div id="html">
+        <h1>HTML</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsum perspiciatis eum, facere reiciendis animi inventore sequi minus itaque sit adipisci quaerat sint veniam sed odit consequuntur! Maiores, dignissimos est.</p>
+    </div>
+
+    <div id="css">
+        <h1>CSS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsum perspiciatis eum, facere reiciendis animi inventore sequi minus itaque sit adipisci quaerat sint veniam sed odit consequuntur! Maiores, dignissimos est.</p>
+    </div>
+
+    <div id="js">
+        <h1>JS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsum perspiciatis eum, facere reiciendis animi inventore sequi minus itaque sit adipisci quaerat sint veniam sed odit consequuntur! Maiores, dignissimos est.</p>
+    </div>
+
+    <div id="sql">
+        <h1>SQL</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsum perspiciatis eum, facere reiciendis animi inventore sequi minus itaque sit adipisci quaerat sint veniam sed odit consequuntur! Maiores, dignissimos est.</p>
+    </div>
+
+
+</body>
+</html>
