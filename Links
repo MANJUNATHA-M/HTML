@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">LINKS IN HTML</h1>
+    <hr>
+
+    <!-- href   : local web page address or URL -->
+    <!-- target : _self or _blank or blank  -->
+
+    <a href="basictag.html" target="blank"> 
+        click the text to open another web page 
+    </a><br><br>
+
+    <a href="../Media/img.jpg"> 
+        click the text to open any image doc
+    </a><br><br>
+
+    <a href="../Media/song.mp3"> 
+        click the text to open any audio doc
+    </a><br><br>
+
+    <a href="../Media/[HD] First Class Flight (Mr. Bean).mp4"> 
+        click the text to open any video doc
+    </a><br><br>
+
+
+    <a href="../Media/BLOOD RELATION CLASSROOM.pdf"> 
+        click the text to open any pdf doc
+    </a><br><br>
+
+    <a href="../Media/notes.txt"> 
+        click the text to open any audio doc
+    </a><br><br>
+
+    <a href="../Media/BLOOD RELATION CLASSROOM.docx"> 
+        click the text to open any audio doc
+    </a><br><br>
+
+
+
+
+
+
+
+</body>
+</html>
