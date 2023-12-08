@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Media creation</title>
+        <link rel="icon" href="../Media/download.jpg">
+</head>
+<body>
+    <h1>Media Creation in HTML</h1>
+    <hr>
+
+    <img src="https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?resize=476%2C280&ssl=1" alt="">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tYf0BoFe9D8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+
+    <img src="../Media/img.jpg" alt="image not found" width="612px" height="411px">
+    <br><br>
+
+    <audio src="../Media/The Exam _ Mr. Bean Official.mp3" controls></audio>
+    <br><br>
+
+    <video src="../Media/[HD] First Class Flight (Mr. Bean).mp4" controls
+    width="612px" height="411px"></video>
+    <br><br>
+
+    <iframe src="scroollingdata.html" width="300px" height="300px"></iframe>
+    <br><br>
+
+    <iframe src="../Media/BLOOD RELATION CLASSROOM.pdf" width="800px" height="800px"></iframe>
+
+    <iframe src="../Media/notes.txt"></iframe>
+    
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
