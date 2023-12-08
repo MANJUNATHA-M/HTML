@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Character formatting tags </h1>
+    <hr>
+
+    <b>b tag in HTML</b>
+    <br><br>
+
+    <i>i tag in HTML</i>
+    <br><br>
+
+    <u>u tag in HTML</u>
+    <br><br>
+
+    <strong>strong tag in HTML</strong>
+    <br><br>
+
+    <em>em tag in HTML</em>
+    <br><br>
+
+    <strike>strike tag in HTML</strike>
+    <br><br>
+
+    <del>del tag in HTML</del>
+    <br><br>
+
+    <big>big tag in HTML</big>
+    <br><br>
+
+    <small>small tag in HTML</small>
+    <br><br>
+
+    <sub></sub>
+    <sup></sup>
+    
+</body>
+</html>
