@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" href="./bg.jpg" />
+  </head>
+  <body>
+    <h1 align="center">FORMS IN HTML</h1>
+    <hr />
+
+    <form action="./table.html">
+      <label for="user">Username : </label>
+      <input type="text" id="user" placeholder="Enter your name" /><br /><br />
+
+      <label>Email : </label>
+      <input type="email" placeholder="Enter your email" /><br /><br />
+
+      <label>Password : </label>
+      <input
+        type="password"
+        placeholder="Enter your password"
+        maxlength="16"
+        minlength="8"
+      /><br /><br />
+
+      <label>Phone : </label>
+      <input type="text" style="width: 30px" value="+91" readonly />
+      <input
+        type="tel"
+        placeholder="Enter your Phone"
+        maxlength="10"
+        minlength="10"
+      /><br /><br />
+      <!-- js is required for extra validation -->
+
+      <label>Age : </label>
+      <input
+        type="number"
+        placeholder="Enter your age in numbers"
+        min="18"
+        max="100"
+        step="1"
+      /><br /><br />
+
+      <label>Date of birth</label>
+      <input type="date" />
+      <!-- type = "date / time / datetime-local / month / week" -->
+      <br /><br />
+
+      <fieldset>
+        <legend align="center">select your gender</legend>
+
+        <input type="radio" name="gender" id="m" /> <label for="m">Male</label
+        ><br />
+        <input type="radio" name="gender" id="f" /> <label for="f">Female</label
+        ><br />
+        <input type="radio" name="gender" id="o" /> <label for="o">Others</label
+        ><br />
+      </fieldset>
+
+      <fieldset>
+        <legend align="center">select your skills</legend>
+
+        <input type="checkbox" name="skills" id="j" />
+        <label for="j">JAVA</label><br />
+        <input type="checkbox" name="skills" id="h" />
+        <label for="h">HTML</label><br />
+        <input type="checkbox" name="skills" id="c" />
+        <label for="c">CSS</label><br />
+        <input type="checkbox" name="skills" id="js" />
+        <label for="js">JS</label><br />
+        <input type="checkbox" name="skills" id="s" />
+        <label for="s">SQL</label><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Select your state</legend>
+
+        <select>
+          <option disabled selected>--SELECT--</option>
+          <option>karnataka</option>
+          <option>kerla</option>
+          <option>tamilnadu</option>
+          <option>andra</option>
+          <option>telangana</option>
+          <option>gujrat</option>
+        </select>
+      </fieldset>
+      <br /><br />
+
+      <label>Upload your resume </label>
+      <input type="file" /><br /><br />
+
+      <!-- <input type="color">
+      <input type="search">
+      <input type="url">
+      <input type="range"> -->
+
+      <input type="submit" value="Signup" />
+    </form>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+  </body>
+</html>
