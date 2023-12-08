@@ -1,0 +1,157 @@
+HTML is case in-sensitive
+HTML is markup language , not a programming language
+Markup languages are used to build structure of a web page
+
+Tags in HTML  
+
+    what : Tags is a keyword written inside the arrow brackets.
+    why  : Tag will tell the browser how to display its content.
+
+Basic tags in HTML ( TEXT )
+
+    1) Header Tag ( h1 -  h6 )
+    Header tags are used to display the headings in UI 
+    - Header tag will apply extra boldness
+    - Header tag will apply with different font size
+    - space occupied by the Headers is always unique line.
+    - we have six different headers variying with font size.
+
+    2) Paragraph Tag ( p )
+    Paragraph tag is used to display the Paragraph in UI
+    - Paragraph tag display the content as a normal text.
+    - Paragraph tag will automatically adjust the line of space to display
+      based on User's Interface screen size.
+    - space occupied by the Paragraph is always unique line.
+
+
+    3) Span Tag()
+    Span tag is used to display a small piece of text in UI without breaking the line.
+    - Span is a normal text.
+    - Span will occupy same line to display it's content.
+
+    4) br tag
+     BR tag is used to break a line explicitly
+
+    4) hr tag
+     Horizontal Rule tag is used to insert a horizontal line.
+
+Attributes 
+
+    Attributes is used to apply the basic 
+    amount of style in HTML.
+
+    text       =    "colorname/code" 
+    bgcolor    =    "colorname/code"
+    background =    "path/imagename"
+    align      =    "left / center / right"
+
+
+Scrolling data
+
+    marquee tag in HTML is used to scroll the data.
+
+    Attributes of marquee
+    1) direction        : left (def) , right , up , down
+    2) behavior         : scroll(def) , slide , alternate.
+    3) bgcolor          : colorname / code
+    4) width            : px / %
+    5) height           : px / %
+    6) loop             : number    
+    7) scrollamount     : Number 
+    8) scrolldelay      : Time in ms
+
+Links in HTML 
+    Anchore tag can be used to creats links in html ,and it is denoted 
+    by 'a'.
+
+    1) External link 
+        If we redirect the page into another document then we call it as 
+        external link.
+
+    syntax : <a  href="path/docname" target="_self"> content </a>
+
+    2) Internal link
+        If we try to scroll the web page to different content of same 
+        then we call it as Internal link.
+
+    syntax :  <a href="#idname"> content </a>
+
+              <div id="idname">
+                  content   
+              </div>
+
+Media Tags 
+
+    1) img : img tag in HTML is used to insert images documents to th UI , we can insert
+             jpg , jpeg , webp , jigf.
+
+            src     =  "path/document name"
+            alt     =  "alternative text which is display if image is note loaded properly"
+            width   =  "px/%"
+            heught  =  "px"
+
+    2) audio : audio tag was introduced in HTML 5th version which can be used to insert 
+               audio documents.
+
+            src      =  "path/documentname"
+            controls =   no value
+
+    3) video : video tag was introduced in HTML 5th version which can be used to insert 
+               video documents.
+
+            src      =  "path/documentname"
+            controls 
+            width    =  "px"
+            height   =  "px"
+            muted
+            loop
+            autoplay
+
+    4) iframe : iframe can be used to insert other kind of documents into the current webpage,
+                we can insert html , pdf , text kind of docs using iframe.
+
+            src      =  "path/documentname"
+            width    =  "px"
+            height   =  "px"
+
+    
+List in HTML
+
+    When we need to display multiple content one below the other we can use a list tags.
+    we have two type in list.
+
+    1) Ordered list : ol will display the list in numbering mode.
+
+                type  :  1 , A, a , i , i
+                start :  character number
+
+    2) Un Ordered list : ul will display the list in bullet mode.
+    
+                type  :  disc , circel , square
+
+
+Table in HTML
+    In HTML we can display multiple data in the format of table (combination
+    of rows and coloums) by using the table tag itself.
+
+    1) We can create a table with border by using TABLE tag and BORDER attribute.
+    2) Inside the table we can create a row by using TABLE ROW (tr) tag.
+    3) In first row of a table we insert a headers using TABLE HEADER (th) tag.
+    4) In rest of the rows of a table we insert a data using TABLE DATA (td) tag.
+
+    <TABLE>
+        <TR> <TH>  </TR>
+        <TR> <TD>  </TR>
+        <TR> <TD>  </TR>
+    </TABLE>
+
+    Attributes
+    1) border         -  "thickness in px"
+    2) bordercolor    -  "colorname / code"
+    3) bgcolor        -  "colorname / code"
+    4) align          -  "left / center / right"
+    5) cellspacing    -  "px"   (space between the cells)
+    6) cellpadding    -  "px"   (space between cell border and cell text)
+
+
+
