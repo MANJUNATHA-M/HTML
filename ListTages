@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 align="center">List in HTML</h1>
+    <hr>
+
+    <h3>LIST OF SUBJECTS IN JFS</h3>
+    <ol type="1" start="1">
+        <li>JAVA</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>SQL</li>
+    </ol>
+
+    <hr>
+
+    <h3>LIST OF SUBJECTS IN JFS</h3>
+    <ul type="square">
+        <li>JAVA</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>SQL</li>
+    </ul>
+
+    <hr>
+
+    <h3>Nested list</h3>
+    <ol>
+        <li>VEG</li>
+            <ul type="disc">
+                <li>idli</li>
+                <li>poori</li>
+                <li>dosa</li>
+                    <ul>
+                        <li>masala dose</li>
+                        <li>set dose</li>
+                    </ul>
+            </ul>
+        <li>NON-VEG</li>
+            <ul>
+                <li>Biryani</li>
+                <li>Kabab</li>
+            </ul>
+        <li>BEVERAGES</li>
+            <ul type="square">
+                <li>Hot drink</li>
+                <li>Cooldrink</li>
+            </ul>
+    </ol>
+
+<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+</body>
+</html>
